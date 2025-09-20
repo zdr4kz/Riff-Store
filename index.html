@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Riff Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header do site -->
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg corDoHeader">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white" href="index.html">Riff Store</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link linkHeaderSelecionado" aria-current="page"
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="guitarras.html">Guitarras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cordas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pedaleiras.html">Pedaleiras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cabos</a>
+                                </li>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- container que contem a banner da home -->
+    <div class="container">
+        <div class="row">
+            <div class="col p-0">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="guitarras.html"><img src="/banners/guitarras-G.jpg" class="d-block w-100"
+                                    alt="/banners/guitarras.jpg"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="pedaleiras.html"><img src="/banners/pedaleira-P.jpg" class="d-block w-100"
+                                    alt="/banners/guitarras.jpg"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/banners/cordas-C.jpg" class="d-block w-100" alt="/banners/cordas-C">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- texto sobre os produtos -->
+    <div class="container">
+        <div class="row">
+            <div class="col ">
+                <h1 class="textoHome fs-3">Guitarras Em Destaque</h1>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- card de produtos -->
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col">
+                <div class="card">
+                    <img src="/produtos/guitarras/Stratocaster-fender.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title pb-2">Fender Strat Lrl Wpg 3ts</h5>
+                        <a href="https://www.mercadolivre.com.br/fender-std-strat-lrl-wpg-3ts-0266240500-cor-marrom-material-da-escala-laurel-orientaco-mo-direita/p/MLB47079290#polycard_client=search-nordic&search_layout=grid&position=1&type=product&tracking_id=c6664f2c-91af-4ea7-8812-f3eddce15b8d&wid=MLB4053683717&sid=search"
+                            class="btn btn-custom text-white">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/produtos/guitarras/fender-player.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card- pb-2"> Fender Strat Player li</h5>
+                        <a href="https://www.mercadolivre.com.br/guitarra-eletrica-fender-player-ii-strat-rw-wbl-cor-branca-cor-branca-material-de-escala-de-acer-orientaco-mo-direita/p/MLB42654869?product_trigger_id=MLB39452099&picker=true&quantity=1"
+                            class="btn btn-custom text-white">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- texto sobre pedaleira -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="textoHome fs-3">Pedaleiras</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- card pedaleira -->
+    <div class="container p-0">
+        <div class="row justify-content-evenly">
+            <div class="col">
+                <a href="pedaleiras.html"><img src="banners/pedaleira.jpg" alt="" class="w-100"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
