@@ -59,3 +59,15 @@ body{
     border: none;
 }
 
+
+.card-body h5{
+    display: flex;
+    max-height: 20vw;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card {
+    margin-bottom: 10%;
+}
