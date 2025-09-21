@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif; /*fonte padrão*/
-    background: linear-gradient(135deg,#8e7758,#26201a 50%)
+  background: linear-gradient(135deg,#8e7758 ,#26201a 50%);
 }
 
 .corDoHeader{
@@ -70,4 +70,35 @@ body{
 
 .card {
     margin-bottom: 10%;
+}
+
+.contatos{
+    margin-top: 7vw;
+    border: 2px solid rgba(255, 255, 255, 0.355);
+    border-radius: 2vw;
+    padding: 10vw;
+    background: var(--cor-primaria-do-site--);
+}
+
+.textContato{
+    color: white;
+}
+
+.botaoContato{
+    width: 100%;
+    border: none;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(103, 1, 1);
+}
+
+.textFooter{
+    color: rgb(255, 255, 255);
+}
+
+.footerDec{
+    margin-top: 30%;
 }
